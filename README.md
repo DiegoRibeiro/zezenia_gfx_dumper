@@ -1,28 +1,42 @@
-How to compile:
-Get the submodule
+#How to compile:
+##Get the submodule
 
+```
 git submodule update --recursive
-Windows (Powershell):
+```
+
+##Windows (Powershell):
 
 Require mingw32-make, gcc, g++:
 
+```
 mkdir build;cd build
-
+```
+```
 cmake -G "MinGW Makefiles" ../
-
+```
+```
 mingw32-make all
-
+```
+```
 Optional: mingw32-make install
-Linux
-
+```
+##Linux
+```
 mkdir build && cd build
-
+```
+```
 cmake ../
-
+```
+```
 make all
+```
+Optional: 
+```
+make install
+```
 
-Optional: make install
-
+## GFX structure
 
 [5A][F7][93][1A][5F]  	-- 5 bytes signature?
 [FD][27][00][00]		-- 4 bytes number of sprites					10237	
