@@ -1,0 +1,9 @@
+{
+	"files.associations": {
+		"*.in": "cpp"
+	},
+	"cmake.configureOnOpen": true,
+	"cmake.buildDirectory": "${workspaceFolder}/build",
+	"cmake.sourceDirectory": "${workspaceFolder}",
+	"cmake.generator": "MinGW Makefiles"
+}

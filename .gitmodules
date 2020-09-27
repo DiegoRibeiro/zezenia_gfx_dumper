@@ -1,0 +1,3 @@
+[submodule "d_bitmap"]
+	path = d_bitmap
+	url = git@github.com:DiegoRibeiro/d_bitmap.git
