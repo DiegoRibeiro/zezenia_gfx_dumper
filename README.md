@@ -49,8 +49,8 @@ After compilation do the following steps:
 # GFX structure
 This file is using the little endian notation.
 ```
-[5A][F7][93][1A][5F]  	-- 5 bytes signature?
-[FD][27][00][00]		    -- 4 bytes number of sprites		 10237	
+[5A][F7][93][1A][5F] \t-- 5 bytes signature?
+[FD][27][00][00]\t-- 4 bytes number of sprites		 10237	
 
 [20][00]					      -- width sprite								   32
 [20][00]					      -- height sprite							   32
@@ -61,7 +61,8 @@ This file is using the little endian notation.
 
 ## important
 - First value of a pixel starting with [01] shows that the next byte is the number of transparent pixel you need to add.
-- The photo of the login screen has a size reserved of 2048x2048. But only a small portion is being utilized. You can skip when you find the firt 4 zeros (0x00 0x00 0x00 0x00).
+- The photo of the login screen has a size reserved of 2048x2048. But only a small portion is being utilized. You can skip when you find the first 4 zeros (0x00 0x00 0x00 0x00).
 - You have to add the rest of the pixels if the length of the data is less than the total data (lengthData < width * height * 4). Add  (width * height * 4) - lengthData transparent Pixels. 
 
+Thanks to this topic i figure out the structure.
 https://tpforums.org/forum/archive/index.php/t-6351.html
