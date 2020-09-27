@@ -47,7 +47,7 @@ After compilation do the following steps:
 - Run the executable.
 
 # GFX structure
-
+```
 [5A][F7][93][1A][5F]  	-- 5 bytes signature?
 [FD][27][00][00]		-- 4 bytes number of sprites					10237	
 
@@ -56,6 +56,7 @@ After compilation do the following steps:
 [00][10][00][00]			-- length data pixel						4096
 
 [2C][53][92][FF]			-- bgra
+```
 
 important
 first value of a pixel starting with [01] shows that the next byte is the number of transparent pixel you need to add
