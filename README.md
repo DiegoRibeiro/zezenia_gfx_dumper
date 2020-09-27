@@ -40,12 +40,12 @@ Optional:
 make install
 ```
 
-## How to use
+# How to use
 - Copy the zezenia gfx to the executable folder. 
 - Create a folder named "output" on the executable folder.
 - Run the executable.
 
-## GFX structure
+# GFX structure
 
 [5A][F7][93][1A][5F]  	-- 5 bytes signature?
 [FD][27][00][00]		-- 4 bytes number of sprites					10237	
