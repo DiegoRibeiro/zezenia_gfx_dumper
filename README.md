@@ -41,8 +41,8 @@ make install
 ```
 
 ## How to use
-- Copy the zezenia gfx to the same folder as the executable. 
-- Create a folder named "output" on the same folder as the executable.
+- Copy the zezenia gfx to the executable folder. 
+- Create a folder named "output" on the executable folder.
 - Run the executable.
 
 ## GFX structure
