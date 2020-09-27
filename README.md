@@ -1,4 +1,5 @@
 #How to compile:
+
 ##Get the submodule
 
 ```
@@ -21,7 +22,9 @@ mingw32-make all
 ```
 Optional: mingw32-make install
 ```
+
 ##Linux
+
 ```
 mkdir build && cd build
 ```
