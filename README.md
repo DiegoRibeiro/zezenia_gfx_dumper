@@ -1,4 +1,4 @@
-# How to compile:
+# How to compile
 
 ## Get the submodule
 
@@ -19,8 +19,9 @@ cmake -G "MinGW Makefiles" ../
 ```
 mingw32-make all
 ```
+Optional:
 ```
-Optional: mingw32-make install
+mingw32-make install
 ```
 
 ## Linux
@@ -38,6 +39,11 @@ Optional:
 ```
 make install
 ```
+
+## How to use
+- Copy the zezenia gfx on the same folder as the executable. 
+- Create a folder name output on the same folder as the executable.
+- Run the executable.
 
 ## GFX structure
 
