@@ -1,12 +1,12 @@
-#How to compile:
+# How to compile:
 
-##Get the submodule
+## Get the submodule
 
 ```
 git submodule update --recursive
 ```
 
-##Windows (Powershell):
+## Windows (Powershell):
 
 Require mingw32-make, gcc, g++:
 
@@ -23,7 +23,7 @@ mingw32-make all
 Optional: mingw32-make install
 ```
 
-##Linux
+## Linux
 
 ```
 mkdir build && cd build
