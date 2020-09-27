@@ -49,8 +49,8 @@ After compilation do the following steps:
 # GFX structure
 This file is using the little endian notation.
 ```
-[5A][F7][93][1A][5F] &nbsp;&nbsp;&nbsp;&nbsp;-- 5 bytes signature?
-[FD][27][00][00]&nbsp;&nbsp;&nbsp;&nbsp;-- 4 bytes number of sprites		 10237	
+[5A][F7][93][1A][5F]     -- 5 bytes signature?
+[FD][27][00][00]    -- 4 bytes number of sprites		 10237	
 
 [20][00]					      -- width sprite								   32
 [20][00]					      -- height sprite							   32
