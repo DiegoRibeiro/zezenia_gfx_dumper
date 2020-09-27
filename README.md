@@ -41,6 +41,7 @@ make install
 ```
 
 # How to use
+After compilation do the following steps:
 - Copy the zezenia gfx to the executable folder. 
 - Create a folder named "output" on the executable folder.
 - Run the executable.
