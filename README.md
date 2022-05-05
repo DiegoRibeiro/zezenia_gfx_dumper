@@ -1,3 +1,8 @@
+# Compatibility
+Only works until version 747. Will update to the current version when i have some time.
+Link to the gfx that works:
+https://www.mediafire.com/file/f51ymx0m9lyqaak/zezenia.gfx/file
+
 # How to compile
 
 ## Get the submodule
